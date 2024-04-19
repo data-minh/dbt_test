@@ -1,7 +1,7 @@
 {{ config(materialized='table') }}
 
 SELECT
-    ROW_NUMBER() OVER () AS id_job_title,
-    job_title
+    ROW_NUMBER() OVER () AS id_descr50,
+    descr50
 FROM {{ source('data_test', 'file1_table') }}
-GROUP BY job_title
+GROUP BY descr50
