@@ -6,6 +6,9 @@ sources:
     schema: public  
     tables:
       - name: file1_table
+      - name: DIM_JOB_TITLE
+      - name: DIM_DESCR50
+      - name: DIM_SYS
 
 models:
   - name: dim_job_title
