@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: data_test
+    database: test  
+    schema: public  
+    tables:
+      - name: file1_table
